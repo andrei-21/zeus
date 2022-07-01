@@ -14,7 +14,7 @@
     "postinstall": "rn-nodeify --install --hack; npx jetify",
     "test": "jest",
     "tsc": "tsc",
-    "lint": "eslint --ext .js,.ts,.tsx '*.@(js|ts|tsx)' .",
+    "lint": "eslint .",
     "prettier": "prettier --check --write '**/*.ts*'"
   },
   "dependencies": {
